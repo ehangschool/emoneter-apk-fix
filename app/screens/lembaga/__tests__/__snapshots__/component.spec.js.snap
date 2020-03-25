@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component snapshot testing renders without data 1`] = `
+<MainScreen
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Header
+    back={true}
+    setting={true}
+    title="Account"
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFFFFF",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {},
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignContent": "center",
+              "borderBottomColor": "#BDBDBD",
+              "borderBottomWidth": 1,
+              "justifyContent": "center",
+              "opacity": 1,
+              "width": "50%",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "alignSelf": "center",
+                  "color": "#BDBDBD",
+                  "fontFamily": "Quicksand-Medium",
+                  "fontSize": 25.142857142857142,
+                  "paddingVertical": 10,
+                },
+                Object {
+                  "color": "#BDBDBD",
+                  "fontFamily": "Quicksand-Medium",
+                  "fontSize": 25.142857142857142,
+                },
+                Object {
+                  "color": "#1ea54f",
+                },
+                Object {
+                  "color": "#E5E5E5",
+                  "fontFamily": "Quicksand-Medium",
+                  "fontSize": 25.142857142857142,
+                },
+              ]
+            }
+          >
+            Tab A
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(0,0,0,0)",
+                  "height": 2,
+                },
+                Object {
+                  "height": 4,
+                },
+                Object {
+                  "backgroundColor": "#1ea54f",
+                },
+                Object {},
+              ]
+            }
+          />
+        </View>
+        <View
+          accessible={true}
+          isTVSelectable={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignContent": "center",
+              "borderBottomColor": "#BDBDBD",
+              "borderBottomWidth": 1,
+              "justifyContent": "center",
+              "opacity": 1,
+              "width": "50%",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "alignSelf": "center",
+                  "color": "#BDBDBD",
+                  "fontFamily": "Quicksand-Medium",
+                  "fontSize": 25.142857142857142,
+                  "paddingVertical": 10,
+                },
+                Object {
+                  "color": "#BDBDBD",
+                  "fontFamily": "Quicksand-Medium",
+                  "fontSize": 25.142857142857142,
+                },
+              ]
+            }
+          >
+            Tab B
+          </Text>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "rgba(0,0,0,0)",
+                  "height": 2,
+                },
+                Object {
+                  "height": 4,
+                },
+              ]
+            }
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          Tab Index : 0
+        </Text>
+        <Button
+          disabled={false}
+          onPress={[Function]}
+          title="title"
+          type="raised-ripple"
+        />
+      </View>
+    </View>
+  </View>
+</MainScreen>
+`;
